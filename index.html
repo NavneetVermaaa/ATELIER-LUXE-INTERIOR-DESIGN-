@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier Luxe - Luxury Interior Design</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">Atelier Luxe</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">ATELIER LUXE</h1>
+            <div class="hero-line"></div>
+            <p class="hero-subtitle">Timeless Elegance in Every Detail</p>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-label reveal">— About Us</div>
+        <div class="about-content">
+            <div class="about-text">
+                <h2 class="reveal">Crafting Spaces of Distinction Since 1998</h2>
+                <p class="reveal">At Atelier Luxe, we believe that true luxury lies in the details. With over 25 years of experience in crafting bespoke interiors for discerning clientele, we have established ourselves as purveyors of timeless elegance and sophisticated design.</p>
+                <p class="reveal">Our philosophy is rooted in the principles of classical architecture, refined aesthetics, and an unwavering commitment to excellence. Each project is a testament to our dedication to creating spaces that transcend trends and stand the test of time.</p>
+                <p class="reveal">We work exclusively with a select number of clients each year, ensuring that every project receives the meticulous attention and craftsmanship it deserves.</p>
+            </div>
+            <div class="about-image reveal-right"></div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="stats-grid">
+            <div class="stat-item reveal">
+                <h3 class="stat-number" data-target="25">0</h3>
+                <p>Years of Excellence</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="stat-number" data-target="200">0</h3>
+                <p>Luxury Projects</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="stat-number" data-target="15">0</h3>
+                <p>International Awards</p>
+            </div>
+            <div class="stat-item reveal">
+                <h3 class="stat-number" data-target="98">0</h3>
+                <p>Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="section-label reveal">— Our Portfolio</div>
+        <h2 class="reveal">Selected Works</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item reveal">
+                <div class="portfolio-item-bg"></div>
+                <div class="portfolio-overlay">
+                    <h3>Kensington Residence</h3>
+                    <p>London, UK</p>
+                </div>
+            </div>
+            <div class="portfolio-item reveal">
+                <div class="portfolio-item-bg"></div>
+                <div class="portfolio-overlay">
+                    <h3>Park Avenue Penthouse</h3>
+                    <p>New York, USA</p>
+                </div>
+            </div>
+            <div class="portfolio-item reveal">
+                <div class="portfolio-item-bg"></div>
+                <div class="portfolio-overlay">
+                    <h3>Villa Bella Vista</h3>
+                    <p>Tuscany, Italy</p>
+                </div>
+            </div>
+            <div class="portfolio-item reveal">
+                <div class="portfolio-item-bg"></div>
+                <div class="portfolio-overlay">
+                    <h3>Mayfair Estate</h3>
+                    <p>London, UK</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="section-label reveal">— Our Services</div>
+        <h2 class="reveal">Bespoke Solutions</h2>
+        <div class="services-grid">
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Interior Architecture</h3>
+                <p>Comprehensive spatial planning and architectural detailing that forms the foundation of exceptional interiors.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Bespoke Furnishings</h3>
+                <p>Custom-designed furniture and fixtures crafted by master artisans to perfectly complement your space.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Art Curation</h3>
+                <p>Expert selection and placement of fine art and collectibles to elevate your interiors with cultural significance.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Lighting Design</h3>
+                <p>Sophisticated illumination strategies that enhance ambiance while showcasing architectural features.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Project Management</h3>
+                <p>Seamless coordination of all trades and suppliers, ensuring timeless execution from concept to completion.</p>
+            </div>
+            <div class="service-card reveal">
+                <div class="service-icon">◆</div>
+                <h3>Restoration</h3>
+                <p>Preservation and enhancement of historic properties with respect for heritage and original craftsmanship.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="testimonial-content reveal">
+            <p class="testimonial-quote">"Atelier Luxe transformed our residence into a masterpiece. Their attention to detail, understanding of classical proportions, and ability to source the finest materials is unparalleled. They don't just design spaces; they create legacies."</p>
+            <p class="testimonial-author">— Victoria Ashford, Private Client</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="contact-content">
+            <div>
+                <div class="section-label reveal">— Get in Touch</div>
+                <h2 class="reveal">Begin Your Journey</h2>
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <h3>Studio</h3>
+                        <p>24 Belgrave Square<br>London SW1X 8QA</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Inquiries</h3>
+                        <p>contact@atelierluxe.com<br>+44 20 7123 4567</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>Hours</h3>
+                        <p>Monday - Friday<br>9:00 AM - 6:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form reveal-right">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Email Address" required>
+                <input type="tel" placeholder="Phone Number">
+                <textarea placeholder="Tell us about your project" required></textarea>
+                <button class="submit-btn">Submit Inquiry</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Atelier Luxe. All rights reserved. Crafted with distinction. Made by <i>Navneet_codes</i></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
